@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Tajawal', sans-serif;
+}
+:root{
+    --f1-color:#51557E;
+    --s2-color: #816797;
+}
+/* start bost */
+.bost{
+    width: 95%;
+    margin: 3px auto;
+    background: linear-gradient(45deg, var(--f1-color), var(--s2-color));
+    color:#fff ;
+    border-radius: 10px;
+}
+/* end bost */
