@@ -5,17 +5,49 @@
 }
 body{
     font-family: 'Tajawal', sans-serif;
+    background-color: #F7F6DC;
+    color: #2B2B2B;
 }
 :root{
     --f1-color:#51557E;
     --s2-color: #816797;
 }
+.orange{
+    color: #FF7700;
+}
+.green{
+    color: #7FB77E;;
+}
+.navy{
+    color: var(--s2-color);
+}
 /* start bost */
 .bost{
     width: 95%;
     margin: 3px auto;
-    background: linear-gradient(45deg, var(--f1-color), var(--s2-color));
-    color:#fff ;
+    background-color: #fff;
+    
     border-radius: 10px;
+    
+}
+.bost header h1{
+    
+}
+.bost header i{
+    font-size: 40px;
 }
 /* end bost */
+.zikir {
+    width: 95%;
+    margin: 3px auto;
+    
+}
+.zikir h5{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.zikir .content{
+    background-color: #fff;
+    border-radius: 10px;
+    bottom: 0;
+}
