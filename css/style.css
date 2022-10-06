@@ -11,9 +11,15 @@ body{
 :root{
     --f1-color:#51557E;
     --s2-color: #816797;
+    --3g-color:#7FB77E;
+    --4f-color: #FF7700;
+    --5f-color: #FFAF00;
+    --6s-color:#FFE3B7;
+    --7s-color: #C98474;
 }
 .orange{
-    color: #FF7700;
+    color:#FF7700 ;
+    
 }
 .green{
     color: #7FB77E;;
@@ -22,32 +28,77 @@ body{
     color: var(--s2-color);
 }
 /* start bost */
-.bost{
-    width: 95%;
-    margin: 3px auto;
-    background-color: #fff;
+.prayer-time{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 5px;
+}
+.prayer-time div{
     
-    border-radius: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15px;
+}
+.prayer-time .pary:first-child{
+    background-color: var(--s2-color);
+    color: #fff;
+}
+.prayer-time .pary:nth-child(2){
+    background-color: var(--6s-color);
     
 }
-.bost header h1{
-    
+.prayer-time .pary:nth-child(3){
+    background-color: var(--5f-color);
+    color: #fff;
 }
-.bost header i{
-    font-size: 40px;
+.prayer-time .pary:nth-child(4){
+    background-color: var(--4f-color);
+    color: #fff;
+}
+.prayer-time .pary:nth-child(5){
+    background-color: var(--7s-color);
+    color: #fff;
+}
+.prayer-time .pary:last-child{
+    background-color: var(--f1-color);
+    color: #fff;
 }
 /* end bost */
-.zikir {
-    width: 95%;
-    margin: 3px auto;
+details.parent{
+    border: 1px solid #e7e7e7;
+    padding: 5px;
+    border-radius:10px ;
     
 }
-.zikir h5{
-    background-color: #fff;
-    border-radius: 10px;
+
+details.parent > summary{
+    font-size: 46px;
 }
-.zikir .content{
-    background-color: #fff;
-    border-radius: 10px;
-    bottom: 0;
+details.child{
+
+    margin: 15px;
+}
+details.child summary{
+    padding: 5px;
+    background-color: #FF7700;
+    margin-bottom: 2px;
+    border-radius:10px ;
+    color: #fff;
+}
+
+details.child p{
+    padding: 15px;
+    background-color: #fff5eb;
+    border-radius:10px ;
+}
+details.azan{
+    color: var(--3g-color);
+}
+details.azan details.child summary{
+    background-color: var(--3g-color);
+}
+details.azan details.child p{
+    color: #2B2B2B;
+    font-weight: bold;
+    border: 1px solid var(--3g-color);
 }
