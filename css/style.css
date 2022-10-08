@@ -28,40 +28,9 @@ body{
     color: var(--s2-color);
 }
 /* start bost */
-.prayer-time{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    gap: 5px;
-}
-.prayer-time div{
-    
-    border-radius: 5px;
-    text-align: center;
-    padding-top: 15px;
-}
-.prayer-time .pary:first-child{
-    background-color: var(--s2-color);
-    color: #fff;
-}
-.prayer-time .pary:nth-child(2){
-    background-color: var(--6s-color);
-    
-}
-.prayer-time .pary:nth-child(3){
-    background-color: var(--5f-color);
-    color: #fff;
-}
-.prayer-time .pary:nth-child(4){
-    background-color: var(--4f-color);
-    color: #fff;
-}
-.prayer-time .pary:nth-child(5){
-    background-color: var(--7s-color);
-    color: #fff;
-}
-.prayer-time .pary:last-child{
+.time{
     background-color: var(--f1-color);
-    color: #fff;
+    color: #f7f5f1;
 }
 /* end bost */
 details.parent{
