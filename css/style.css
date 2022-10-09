@@ -17,6 +17,9 @@ body{
     --6s-color:#FFE3B7;
     --7s-color: #C98474;
 }
+.pray > h6{
+    font-size: 10px;
+}
 .orange{
     color:#FF7700 ;
     
